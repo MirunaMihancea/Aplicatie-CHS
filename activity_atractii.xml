@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Atractii">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="55dp"
+        tools:ignore="MissingConstraints,NotSibling">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/MunteleMic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_1_masivul_muntele_mic_este_un_grup_muntos_din_mun_ii_retezat_godeanu_apar_in_nd_de_lan_ul_muntos_al_carpa_ilor_meridionali_se_g_se_te_ntre_mun_ii_arcu_mun_ii_godeanu_i_mun_ii_retezat_cel_mai_nalt_pisc_este_v_rful_muntele_mic_av_nd_1_802_m"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout1">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Lugoj" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_2_ora_ul_lugoj_unul_dintre_cele_mai_importante_centre_ale_mi_c_rii_culturale_din_transilvania_i_banat_lugojul_este_cunoscut_pentru_rolul_important_pe_care_l_a_jucat_n_dezvoltarea_nv_m_ntului_n_mi_carea_de_eliberare_social_i_na_ional_i_consolidarea_unit_ii_na_ionale_a_rom_nilor_aici_a_avut_loc_n_1848_a_doua_adunare_na_ional_a_rom_nilor_din_banat_ast_zi_este_un_important_centru_cultural_i_renumit_centru_muzical_este_a_doua_unitate_urban_ca_m_rime_i_importan_din_jude_ul_timi_dup_municipiul_timi_oara"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout2">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Lugoj" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_3_reca_ul_cu_faimoasele_sale_crame_cea_mai_veche_men_iune_despre_existen_a_viilor_din_reca_dateaz_din_11_noiembrie_1447_ntr_un_act_care_arat_c_mihail_de_ciorna_banul_severinului_cump_ra_viile_de_la_ioan_i_ecaterina_magyar_pentru_32_florini_ungure_ti_de_aur"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout3">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Timisoara" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_4_timi_oara_municipiul_de_re_edin_al_jude_ului_timi_cu_cl_dirile_emblematice_ale_ora_ului_catedrala_mitropolitan_i_opera_na_ional_din_pia_a_victoriei_dar_i_catedrala_ortodox_s_rb_din_pia_a_unirii_printre_obiectivele_turistice_se_num_r_castelul_huniade_palatul_baroc_muzeul_satului_b_n_ean_i_gr_dina_zoologic_mai_mult_n_septembrie_2016_timi_oara_a_fost_desemnat_capital_european_a_culturii_pentru_anul_2021"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout4">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Semenic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_5_sta_iunea_semenic_statiunea_turistica_semenic_este_situata_in_judetul_caras_severin_in_muntii_semenic_muntii_semenic_reprezinta_cea_mai_importanta_subunitate_a_muntilor_banatului_nu_degeaba_intreaga_zona_poarta_numele_de_banatul_montan"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout5">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/muzeu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_6_municipiul_re_i_a_cel_mai_vechi_centru_siderurgic_din_ar_are_o_vechime_n_domeniu_de_aproximativ_250_de_ani_primele_uzine_au_fost_construite_aici_nc_din_anul_1771_mai_mult_de_at_t_ora_ul_are_o_lung_i_interesant_istorie_legat_de_producerea_locomotivelor_cu_abur_pentru_a_afla_mai_multe_despre_locomotivele_disp_rute_ale_rom_niei_mergi_neap_rat_la_muzeul_de_locomotive_cu_abur_http_www_mlaresita_org_dac_vrei_s_afli_c_te_ceva_i_despre_oamenii_de_aici_i_obiceiurile_lor_muzeul_banatului_montan_http_www_muzeulbanatuluimontan_ro_este_cea_mai_bun_surs_de_informa_ie"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout6">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/clisura" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_7_drumul_auto_dn_57_ntre_localit_ile_or_ova_i_moldova_veche_dun_rea_i_va_fi_partner_de_drum_pe_tot_parcursul_acestui_intinerariu_extrem_d_epitoresc_i_romantic"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout7">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/treiape" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_8_transsemenicul_transalpina_banatului_este_un_drum_auto_deschis_relativ_recent_cu_serpentine_destule_lung_de_aproximativ_40_kilometri_i_care_ajunge_la_altitudinea_de_1400_de_metri_dac_ajungi_s_l_parcurgi_vei_avea_deosebita_pl_cere_de_a_admira_lacul_gozna_sta_iunea_v_liug_satul_g_r_na_unde_anual_are_loc_renumitul_festival_de_jazz_sau_fermec_torul_lac_trei_ape"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout8">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/aninaoravita" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_9_calea_ferat_montan_oravi_a_anina_cea_mai_veche_cale_ferat_montan_din_sud_estul_europei_i_a_doua_cale_ferat_montan_din_europa_dup_semmeringbahn_din_austria_este_alt_obiectiv_musai_de_v_zut_din_banatul_montan_n_timp_calea_ferat_extrem_de_pitoreasc_a_primit_denumirea_de_semeringul_b_n_ean_a_fost_dat_n_func_iune_la_15_decembrie_1863_pentru_transportul_de_m_rfuri_i_la_4_aprilie_1869_pentru_transportul_c_l_torilor_de_men_ionat_linia_f_cea_parte_din_drumul_c_rbunelui_c_rbunarilor_care_avea_urm_torul_traseu_anina_oravi_a_bazia_la_bazia_c_rbunele_era_nc_rcat_n_ambarca_iuni_i_distribuit_n_tot_imperiul_austro_ungar_minunatul_traseu_feroviar_traverseaz_10_viaducte_trece_prin_14_tunele_din_piatr_nguste_i_peste_89_de_pode_e_cu_alte_cuvinte_este_o_adev_rat_bijuterie_feroviar"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout9">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/farmacie" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_10_farmacia_muzeu_knlobauch_din_oravi_a_este_prima_farmacie_montanistic_din_spa_iul_rom_nesc_men_ionat_documentar_n_anul_1763_i_care_deservea_n_primul_r_nd_minerii_din_zon_povestea_farmaciei_se_ntinde_pe_parcursul_a_trei_decenii_i_este_absolut_impresionant"
+                android:textColor="@color/colorAccent"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout10">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/teatru" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_11_teatrul_vechi_mihai_eminescu_din_oravi_a_inaugurat_n_anul_1817_este_primul_teatru_din_spa_iul_rom_nesc_n_anul_1868_marele_poet_mihai_eminescu_ajunge_aici_n_calitate_de_sufleor_iar_n_timpul_perioadei_comuniste_teatrul_din_oravi_a_prime_te_numele_actual_mai_mult_din_anul_1998_teatrul_prime_te_statutul_de_monument_de_maxim_importan_na_ional"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout11">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/mraconia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_12_m_n_stirea_mraconia_situat_la_15_km_dep_rtare_de_ora_ul_or_ova_m_n_stirea_are_la_r_ndu_i_o_istorie_zbuciumat_atestat_documentar_nc_de_la_mijlocul_secolului_xv_m_n_stirea_a_fost_distrus_aproape_complet_n_timpul_r_zboaielor_austro_ruso_turce_de_la_sf_r_itul_secolului_xviii_ref_cut_dup_anul_1900_de_c_tre_monahul_alexe_udrea_urmeaz_a_fi_demolat_de_comuni_ti_n_anul_1968_a_ez_m_ntul_actual_situat_ntr_un_loc_de_poveste_dar_care_difer_de_vechiul_loc_al_m_n_stirii_acesta_din_urm_se_afl_l_ng_chipul_lui_decebal_iar_ruinele_n_form_de_cruce_ale_fostului_loc_monahal_se_pot_observa_c_nd_apele_dun_rii_scad_este_construit_ntre_anii_1993_2000"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout12">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/sfana" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_13_m_n_stirea_sf_nta_ana_or_ova_a_ezat_pe_coama_dealului_mo_ului_care_domin_ora_ul_or_ova_m_n_stirea_a_fost_ctitorit_de_c_tre_ziaristul_interbelic_pamfil_eicaru_care_a_luptat_n_zona_or_ovei_n_calitate_de_sublocotenent_al_regimentului_17_infanterie_n_primul_r_zboi_mondial_construc_ia_a_durat_3_ani_ntre_1936_1939_n_interiorul_m_n_stirii_se_afl_morm_ntul_ctitorului_s_u_decedat_n_anul_1980_la_munchen_de_pe_dealul_mo_ului_se_poate_admira_micu_ul_ora_dun_rean_a_c_rui_vatr_a_fost_str_mutat_n_anul_1970_n_vederea_realiz_rii_lacului_de_acumulare_por_ile_de_fier_i"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout14"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout13">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bobda" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_14_biserica_baronului_din_bobda_este_o_locatie_unica_si_se_afla_la_doar_20_de_kilometri_de_timisoara_vorbim_de_biserica_mausoleu_de_la_bobda_comuna_cenei_care_atunci_cand_o_privesti_te_lasa_fara_respiratie_cu_siguranta_ca_aceasta_trebuie_vizitata_de_cei_care_nu_au_facut_o_deja_monumentul_este_incarcat_de_istorie_si_din_pacate_in_prezent_se_afla_intr_o_stare_avansata_de_degradare_in_secolul_al_xix_lea_cea_mai_importanta_familie_din_bobda_era_cea_a_baronului_gyula_csavossy_care_a_construit_in_pitoreasca_localitate_banateana_un_castel_cu_42_de_camere_parcuri_herghelii_si_diverse_acareturi_peste_drum_de_castel_a_ridicat_si_un_mausoleu_care_imita_bazilica_din_orasul_ungar_esztergom_datorit_dimensiunilor_impresionante_mausoleul_a_ajuns_in_timp_sa_fie_folosit_ca_biserca_romano_catolica"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout15"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout14">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/vinga" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_15_biserica_romano_catolic_din_vinga_biserica_sf_nta_treime_de_rit_romano_catolic_este_localizat_n_satul_vinga_la_nr_87_fiind_realizat_n_stil_neogotic_cl_direa_bisericii_dateaz_din_anii_1890_1891_locuitorii_comunei_au_fost_n_mare_parte_de_origine_bulgar_veni_i_n_secolul_al_xviii_lea_din_teritoriul_bulgariei_datorit_asupritorilor_turci_n_toamna_anului_1741_se_stabilesc_n_localitatea_vinga_125_de_familii_de_etnici_bulgari_n_anul_1749_comunitatea_bulgar_i_ridic_o_m_n_stire_i_o_biseric_dup_150_de_ani_colonia_de_bulgari_num_ra_aproape_5000_de_suflete_iar_biserica_a_devenit_ne_nc_p_toare_anul_1880_este_momentul_n_care_la_o_adunare_ob_teasc_se_propune_i_se_aprob_zidirea_unei_noi_biserici_mai_nc_p_toare_proiectul_noului_templu_acceptat_de_localnici_este_realizat_de_c_tre_arhitectul_vienez_reiter_eduard_timp_de_zece_ani_s_au_audnat_fondurile_necesare_de_la_cet_eni_astfel_nc_t_contribu_ia_benevol_a_acestora_a_ajutat_la_preg_tirea_materialului_necesar_construc_iei"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout16"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout15">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Grădinari" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_16_turnul_de_pe_deal_din_gr_dinari_localitatea_gr_dinari_se_afl_n_sudul_jude_ului_caras_severin_pe_drumul_na_ional_dn_57_moravi_a_oravi_a_la_11_kilometri_de_oravi_a_i_96_de_km_de_timi_oara_pe_un_deal_nainte_de_intrarea_n_gr_dinari_se_nal_un_misterios_turn_de_piatr_mult_lume_tie_c_este_vorba_de_r_m_i_ele_unei_vechi_biserici_construite_n_urm_cu_aproape_300_de_ani_aceasta_ar_fi_fost_c_ndva_biserica_locuitorilor_rom_ni_din_cacova_pe_vechea_vatr_a_a_cum_s_a_numit_gr_dinari_ul_nainte_pe_vremea_imperiului_austro_ungariei"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout17"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout16">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Attilla" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_17_presupusul_morm_nt_al_conduc_torului_hunilor_attilla_biciul_lui_dumnezeu_de_pe_insula_ostrov_conform_legendelor_acesta_ar_fi_fost_nmorm_ntat_undeva_pe_o_insul_pe_dun_re_accesul_se_pe_insul_se_face_cu_barca_plec_rile_fiind_n_principal_din_localitatea_moldova_veche"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout18"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout17">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ladislau" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_18_cetatea_ladislau_fortifica_ie_medieval_construit_probabil_n_secolul_xiv_i_distrus_complet_n_anul_1526_pe_malul_opus_cel_s_rbesc_se_afl_cetatea_golub_golubac_monument_istoric_de_importan_cultural_excep_ional_pentru_ara_vecin"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout19"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout18">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/trikule" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_19_ruinele_cet_ii_trikule_construit_n_secolul_xv_pentru_a_opri_expansiunea_otoman_n_europa_trikule_nsemn_simplu_trei_turnuri_acum_n_ap_se_mai_v_d_doar_dou"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout20"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout19">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/tabula" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_20_tabula_traiana_situat_pe_malul_s_rbesc_poate_fi_admirat_mai_ndeaproape_doar_din_barc_i_reprezint_o_plac_memorial_ridicat_de_mp_ratul_traian_n_cinstea_victorie_imperiului_roman_asupra_regatului_dac_n_urma_celui_de_al_doilea_r_zboi_daco_roman_105_106_textul_n_limba_latin_a_fost_tradus_i_interpretat_de_otto_benndorf_ca_fiind_urm_torul_mp_ratul_cezar_fiul_divinului_nerva_nerva_traian_augustus_germanicus_pontifex_maximus_investit_de_patru_ori_ca_tribun_tat_l_patriei_consul_pentru_a_treia_oar_excav_nd_roci_din_mun_i_i_folosind_b_rne_de_lemn_a_f_cut_acest_pod"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout20">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/decebal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_21_chipul_lui_decebal_cea_mai_nalt_sculptur_din_piatr_din_europa_este_situat_n_locul_unde_r_ul_mraconia_se_vars_n_dun_re_i_a_fost_construit_ntre_anii_1994_i_2004_ideea_construirii_sculpturii_a_apar_inut_istoricului_iosif_constantin_dr_gan_i_este_oarecum_o_replic_la_placa_memorial_antic_roman_tabula_traiana_situat_chiar_n_fa_a_basoreliefului_lui_decebal_pe_malul_s_rbesc_sub_capul_lui_decebal_a_fost_s_pat_n_st_nc_o_inscrip_ie_n_latin_decebalus_rex_dragan_fecit_regele_decebal_f_cut_de_dr_gan"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout21">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/herculane" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_22_b_ile_herculane_sta_iunea_milenar_este_acum_ntr_o_stare_de_degradare_avansat_totu_i_un_grup_de_oameni_inimo_i_pun_um_rul_la_refacerea_acestui_mic_ora_el_plin_de_farmec_i_rezultatele_ncet_ncet_ncep_s_apar_dac_ai_ajuns_aici_trebuie_neap_rat_s_vezi_probabil_cea_mai_frumoas_gar_din_rom_nia_cazinoul_podurile_de_piatr_i_respectiv_font_de_peste_r_ul_cerna_pia_a_i_statuia_hercules_i_nu_uita_te_afli_ntr_o_sta_iune_al_c_rei_trecut_istoric_ncepe_undeva_n_anul_102_d_ch_i_despre_care_mp_ratul_franz_iosef_a_men_ionat_c_este_cea_mai_frumoas_sta_iune_de_pe_continent"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout22">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/dorf" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_23_ni_chidorf_locul_de_na_stere_al_scriitoarei_hertha_muller_satul_actuul_a_fost_nfiin_at_n_1784_1786_n_cadrul_celui_de_a_treilea_val_de_colonizare_a_banatului_ini_ial_au_fost_construite_200_de_case_n_care_au_fost_instala_i_coloni_ti_provenind_din_germania_vabi_numele_i_a_fost_dat_dup_contele_cristofor_niczky_prefectul_de_atunci_care_s_a_ocupat_de_colonizarea_lui_a_adar_s_a_numit_nitzkyidorf_sau_satul_lui_nitzky_rom_nii_din_satele_vecine_i_au_zis_nichi_oara_iar_forma_de_azi_a_numelui_este_forma_rom_nizat_a_numelui_original_timp_de_dou_secole_a_fost_un_sat_aproape_exclusiv_german_romano_catolic_vabii_au_construit_n_1825_biserica_romano_catolic_a_existat_i_o_moar_care_a_ars_n_1930_dup_unirea_banatului_cu_rom_nia_satul_a_r_mas_german_exodul_germanilor_a_nceput_dup_cel_de_al_doilea_r_zboi_mondial_i_a_accelerat_la_finele_anilor_80_i_nceputul_anilor_90_ast_zi_ni_chidorf_este_majoritar_rom_nesc_comunitatea_german_num_r_nd_doar_18_locuitori_2002"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout24"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout23">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ch" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_24_charlottenburg_acest_sat_este_singurul_sub_form_circular_chorographie_in_mijlocul_satului_se_g_se_te_o_f_nt_n_acoperit_cu_ap_foarte_bun_n_jurul_f_nt_nii_se_g_se_te_o_planta_ie_de_duzi_n_spatele_c_reia_se_g_sesc_casele_acestea_av_nd_n_curte_grajduri_i_ure_apoi_urmeaz_gr_dina_unde_se_g_se_te_plantat_vi_a_de_vie_nici_o_cas_nu_este_nici_cu_un_deget_mai_nalt_ca_cealalt_i_nici_cu_un_picior_mai_distanta_una_fa_de_cealalt_av_nd_un_stil_simetric_des_v_r_it_la_fel_i_cele_patru_intr_ri_n_sat_sunt_la_aceea_i_distan_una_fa_de_alta_se_remarc_prin_faptul_c_este_singurul_sat_construit_n_form_de_cerc_din_banat_din_acest_motiv_ntreaga_localitate_a_fost_declarat_monument_istoric_de_c_tre_ministerul_culturii_i_cultelor_cu_codul_tm_ii_s_a_06198"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout25"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout24">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/lie" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_25_liendelfeld_satul_p_r_sit_lindenfeld_a_fost_ntemeiat_n_anul_1828_de_c_tre_coloni_ti_germani_veni_i_din_boemia_mpreun_cu_buchin_brebu_nou_i_poiana_pan_n_1960_lindenfeld_avea_propria_structur_a_satului_cu_coal_cas_comunitar_propria_electricitate_i_alimentare_cu_ap_n_cele_din_urm_locuitorii_s_au_mutat_n_caransebe_buchin_sau_brebu_nou_ast_zi_satul_este_depopulat_din_1998_odat_cu_moartea_ultimului_s_u_locuitor_paul_schwirzenbeck"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout26"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout25">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/rav" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_26_inutul_cehesc_din_banat_satele_cehe_ti_din_zona_clisurii_dun_rii_popula_ia_etnicilor_cehi_denumi_i_pemi_n_limbajul_popular_derivat_al_cuv_ntului_boemieni_locuitorii_boemiei_a_fost_printre_ultimele_ce_au_colonizat_banatul_ca_reper_istoric_au_fost_trei_valuri_de_colonizare_cu_etnici_cehi_anii_coloniz_rilor_au_fost_1823_1827_1865_iar_satele_cehe_ti_care_mai_sunt_i_ast_zi_locuite_de_pemi_sunt_g_rnic_sf_nta_elena_big_r_ravensca_umi_a_i_eibenthal"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout27"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout26">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/svi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_27_localitatea_svini_a_t_r_mul_smochinelor_locuit_n_majoritatea_ei_de_etnici_s_rbi_svini_a_g_zduie_te_n_ultima_duminic_din_luna_august_a_fiec_rui_an_festivalul_smochinelor_conform_legendelor_se_spune_c_smochinul_a_fost_adus_n_zon_acum_aproximativ_300_de_ani_din_minunata_insul_scufundat_de_regimul_comunist_ada_kaleh_tot_aici_vei_putea_vedea_muzeul_etnografic_ce_cuprinde_elemente_i_obiecte_din_via_a_obi_nuit_a_locuitorilor_zonei"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout28"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout27">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ine" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_28_c_tunele_inele_prisacina_dobroaia_i_sc_ri_oara_supranumite_i_paradisul_din_mun_ii_cernei_vizitarea_c_tunelor_men_ionate_poate_fi_o_experien_unic_cu_siguran_de_neuitat_izolate_de_restul_lumii_la_acestea_po_i_ajunge_doar_dac_urci_sc_rile_construite_din_lemn_n_urm_cu_aproximativ_50_de_ani"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout29"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout28">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/sat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/_29_rezerva_ia_ornitologic_mla_tinile_satchinez_rezerva_ia_ornitologic_mla_tinile_satchinez_este_situat_la_o_distan_de_aproximativ_28_km_n_direc_ie_nv_de_municipiul_timi_oara_ea_este_amplasat_n_bazinul_hidrografic_timi_bega_pe_albia_major_a_p_r_ului_ier_n_aval_de_satul_b_r_teaz_i_n_dreptul_localit_ii_satchinez_reprezint_ast_zi_una_dintre_ultimele_por_iuni_ml_tinoase_ntinse_din_valea_ierului_este_supranumit_delta_banatului"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout30"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout29">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/sfinx" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_30_sfinxul_de_la_tople_valea_cernei_sfinxul_b_n_ean_cunoscut_i_sub_denumirea_de_sfinxul_de_la_tople_este_o_rezerva_ie_natural_de_tip_geomorfologic_care_se_afl_n_sud_estul_jude_ului_cara_severin_pe_teritoriul_administrativ_al_comunei_tople_n_partea_nordic_a_satului_b_rza"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout30">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/minis" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_31_cheile_mini_ului_n_mun_ii_aninei_din_jude_ul_cara_severin_pe_o_distan_de_14_kilometri_se_ntind_unele_dintre_cele_mai_frumoase_chei_din_rom_nia_ce_ascund_peisaje_superbe_cheile_mini_ului_l_vr_jesc_pe_turist_nc_din_prima_clip_mai_ales_datorit_mirosului_proasp_t_de_p_dure_i_mu_chi_umed"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout31">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/garliste" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_32_cheile_g_rli_tei_rezerva_ia_natural_mixt_forestier_geomorfologic_i_geologic_cheile_g_rli_tei_este_situat_n_mun_ii_aninei_i_se_ntinde_pe_o_suprafa_de_517_hectare_la_o_altitudine_maxim_de_690_metri_cheile_sunt_situate_ntre_localit_ile_anina_i_g_rli_te_i_sunt_str_b_tute_de_p_r_ul_g_rli_te_f_c_nd_parte_din_parcul_na_ional_semenic_cheile_cara_ului_traseul_are_o_lungime_de_cca_9_km_ncep_nd_la_3_4_km_dup_ie_irea_din_anina_i_termin_ndu_se_cu_aproximativ_1_km_nainte_de_a_intra_n_satul_g_rli_te"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout32">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/aven" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_33_avenul_din_poiana_gropii_este_situat_in_poiana_ce_ii_poarta_numele_si_de_afla_in_vestul_dealului_pinului_acesta_este_cel_mai_adanc_aven_ce_poate_fi_gasit_in_din_regiunea_banatului_laudandu_se_cu_galeriile_si_puturile_ce_se_intind_pe_suprafete_impresionante_explorarea_lui_necesita_materiale_speciale_scari_corzi_pitoaine_etc_si_stapanirea_tehnicii_alpinismului_subteran"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout34"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout33">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/lacbuhui" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_34_lacul_buhui_lac_de_baraj_construit_la_sf_r_itul_secolului_al_xix_lea_a_fost_dat_n_folosin_n_anul_1908_lacul_a_fost_construit_pentru_alimentarea_cu_ap_a_ora_ului_anina_i_este_folosit_i_n_prezent_pentru_acest_lucru_dar_valoarea_lui_turistic_este_dat_de_peisajul_natural_ce_l_nconjoar"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout35"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout34">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/pesterabuhui" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_35_pe_tera_buhui_este_una_din_cele_mai_mari_pesteri_banatene_si_din_tara_impresionanta_nu_numai_prin_dimensiuni_ci_si_prin_marea_varietate_a_aspectelor_pe_care_le_prezinta_galeriile_si_salile_fosile_incarcate_cu_concretiuni"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout36"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout35">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/caras" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_36_cheile_cara_ului_se_num_r_printe_cele_mai_lungi_i_s_lbatice_chei_din_rom_nia_intrarea_n_chei_se_face_din_comuna_cara_ova_merg_nd_pe_o_potec_de_a_lungul_r_ului_cara_parcurgerea_cheilor_se_face_pe_jos_av_nd_posibilitatea_de_a_vedea_vegeta_ia_pe_terile_i_peisajele_superbe_din_chei_obiectivele_turistice_din_cheile_cara_ului_sunt_pe_tera_v_leaga_pe_tera_de_dup_c_rsa_pe_tera_liliecilor_pe_tera_de_sub_cetate_cetatea_cara_pe_tera_din_drumul_prolazului_poiana_prolaz_etc"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout37"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout36">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/iubire" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_37_tunelul_iubirii_dintre_localit_ile_obreja_i_glimboca_este_un_tunel_de_vegeta_ie_format_n_jurul_c_ii_ferate_caransebe_b_u_ar"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout38"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout37">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/rudaria" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_38_rud_ria_cel_mai_mare_parc_mulinologic_mori_de_ap_din_sud_estul_europei_parcul_mulinologic_din_localitatea_eftimie_murgu_cuprinde_22_de_mori_n_irate_de_a_lungul_a_aproximativ_3_kilometri_de_r_u_renovate_undeva_la_nceputul_anilor_2000"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout39"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout38">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bigar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_39_ascada_i_izvorul_big_r_foarte_cunoscut_n_urma_promov_rii_interna_ionale_cascada_big_r_monument_al_naturii_este_ntr_adev_r_spectaculoas_i_mai_ales_foarte_accesibil_se_poate_vedea_chiar_din_drumul_na_ional_57b_pu_in_mai_sus_de_cascad_se_afl_i_izvorul_izbucul_big_r_izvor_puternic_de_unde_termenul_izbuc_alimentat_de_un_curs_de_ap_subteran_ce_str_bate_pe_tera_cu_acela_i_nume_din_mun_ii_aninei_i_a_c_rui_ap_se_vars_n_r_ul_mini_form_nd_o_cascad_de_tuf_calcaros_ce_poart_numele_de_cascada_big_r"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout40"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout39">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/beusnita" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_40_cascada_beu_ni_a_sau_cascadele_beu_ni_ei_cheile_nerei_situate_n_zona_de_protec_ie_strict_cu_statut_de_rezerva_ie_natural_din_cadrul_parcului_na_ional_cheile_nerei_beu_ni_a_din_jude_ul_cara_severin_cascadele_beu_ni_ei_reprezint_un_fenomen_unic_un_adev_rat_monument_al_naturii_i_un_obiectiv_de_nsemnat_valoare_turistic_geologic_si_peisagistic"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout41"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout40">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bei" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_41_lacul_ochiul_bei_cheile_nerei_culoarea_turcoaz_a_apei_lacului_i_va_r_m_ne_imprimat_n_amintiri_mult_timp_dup_ce_vei_avea_pl_cerea_s_o_vezi_lacul_carstic_ce_se_afl_la_ad_post_n_mijlocul_p_durii_este_alimentat_de_un_izvor_subteran_datorit_c_ruia_lacul_nu_nghea_nici_n_sezonul_friguros"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout42"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout41">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/vaioaga" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_42_cascada_la_v_ioag_cheile_nerei_este_format_pe_p_r_ul_bei_i_are_o_frumuse_e_aparte_rivaliz_nd_cu_mai_cunoscutele_big_r_sau_beu_ni_a"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout43"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout42">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/cheileNerei" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_43_cheile_nerei_se_ntind_de_a_lungul_r_ului_nera_ntre_localit_ile_sasca_montan_i_opotu_nou_pe_o_distan_de_aproximativ_22_km_r_ul_nera_al_c_rui_punct_de_v_rsare_n_dun_re_l_po_i_vedea_dac_urmezi_frumosul_traseu_auto_or_ova_moldova_nou_str_bate_un_defileu_cu_aspect_de_chei_ngust_spectaculos_i_absolut_s_lbatic_form_nd_probabil_cele_mai_lungi_chei_din_rom_nia"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout44"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout43">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Ostrov" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_44_caii_s_lbatici_din_insula_ostrov_cu_o_lungime_de_aproximativ_6_kilometri_insula_pustie_s_lbatic_misterioas_este_un_mic_paradis_care_ad_poste_te_o_colonie_de_cai_s_lbatici_aproximativ_100_la_num_r"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout45"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout44">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Babacaia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_45_st_nca_baba_caia_n_apele_dun_rii_vei_vedea_i_o_st_nc_pu_in_ciudat_este_vorba_de_st_nca_baba_caia_care_are_o_n_l_ime_de_apte_metri_deasupra_apei_i_este_unic_nt_lnit_pe_tot_parcursul_dun_rii_numele_s_u_provine_din_limba_turc_i_nseamn_st_nca_tat_lui_mai_mult_pe_vremuri_de_ea_erau_legate_lan_uri_de_la_cetatea_golub_i_cetatea_ladislau_pentru_ca_nici_un_vas_s_nu_scape_de_plata_taxelor_vamale"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout46"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout45">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/Coronini" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_46_apusul_n_zona_localit_ii_coronini_i_obiectivele_turistice_din_mprejurimi_dac_vrei_s_vezi_cum_soarele_portocaliu_aprins_este_nghi_it_de_apele_dun_rii_aici_este_locul_potrivit"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout47"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout46">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ciucaruMare" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_47_muntele_ciucaru_mare_de_aici_vei_putea_admira_din_cele_dou_puncte_importante_de_belvedere_minunata_dun_re_al_turi_de_golful_dubova_cazanele_mici_i_cazanele_mari"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout48"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout47">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/defileu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_48_defileul_i_cazanele_mari_i_mici_dun_rii_admirate_at_t_din_barc_c_t_c_t_i_din_punctele_de_belvedere_de_pe_muntele_ciucaru"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout49"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout48">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/defileu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_49_defileul_i_cazanele_mari_i_mici_dun_rii_admirate_at_t_din_barc_c_t_c_t_i_din_punctele_de_belvedere_de_pe_muntele_ciucaru"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout50"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout49">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/veterani" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_50pe_tera_veterani_nv_luit_de_legende_i_pove_ti_pe_tera_veterani_i_trage_numele_de_la_generalul_austric_de_origine_italian_veterani_accesul_n_pe_ter_se_face_doar_pe_ap_i_se_spune_c_vestitul_tezaur_din_argint_al_mp_r_tesei_mariei_tereza_apar_in_nd_imperiului_austro_ungar_ar_fi_fost_ascuns_aici_alte_legende_aduc_aminte_de_sanctuarul_zeului_dac"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout51"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 2:2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout50">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ponicova" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text = "@string/_51_pe_tera_ponicova_este_cea_mai_lung_pe_ter_din_defileul_dun_rii_are_o_lungime_de_aproximativ_1_660_metri_i_str_bate_ntreg_muntele_ciucaru_mare"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
